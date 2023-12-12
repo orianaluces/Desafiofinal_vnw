@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lato;
+}
+
+/*header*/
+
+.header1{
+    border: solid 4px red;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo .iconos{
+    border: solid 4px blue;
+    width: 40vw;
+    height: 12vh;
+  
+}
+.logo{
+    
+    justify-content: center;
+}
+
+.header2{
+    border: solid 4px red;
+    display: flex;
+}
+.megasale{
+    width: 100%;
+}
+
+/*main*/
+
+.cards{
+    border: solid green;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card{
+    margin: 4vw 4vw 0 4vw;
+
+}
+
+.resaltado{
+    color: #5CA720;
+    text-decoration: underline;
+}
+
+button{
+    background-color: #5CA720;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: #512200;
+}
